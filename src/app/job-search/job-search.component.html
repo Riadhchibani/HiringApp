@@ -1,0 +1,90 @@
+<!-- Toolbar -->
+<div class="toolbar" role="banner">
+    <img width="40" alt="Hiring Logo" src="../../assets/images/H.svg" style="    filter: brightness(0) invert(1);
+        width: 5%;" />
+    <div class="spacer"></div>
+    <div class="input-group rounded" style="width: 14%;padding-right: 1%;">
+        <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+            aria-describedby="search-addon" />
+    </div>
+    <a aria-label="twitter" target="_blank" rel="noopener" title="Twitter">
+        <mat-icon style="color: white;">search</mat-icon>
+    </a>
+    <div style="width: 2%;"></div>
+</div>
+
+<div class="content" role="main">
+    <p class="title">
+        Administration, finance et gestion
+    </p>
+    <div class="container">
+        <div class="row">
+            <mat-expansion-panel hideToggle>
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        Offre 1#
+                    </mat-panel-title>
+                    <mat-panel-description>
+                        This is a summary of the content
+                    </mat-panel-description>
+                </mat-expansion-panel-header>
+                <p>This is the primary content of the panel.</p>
+                <mat-action-row>
+                    <button mat-button color="primary" (click)="accept()">Accept</button>
+                </mat-action-row>
+            </mat-expansion-panel>
+        </div>
+        <div class="row">
+            <mat-expansion-panel hideToggle>
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        Offre 2#
+                    </mat-panel-title>
+                    <mat-panel-description>
+                        This is a summary of the content
+                    </mat-panel-description>
+                </mat-expansion-panel-header>
+                <p>This is the primary content of the panel.</p>
+                <mat-action-row>
+                    <button mat-button color="primary" (click)="accept()">Accept</button>
+                </mat-action-row>
+            </mat-expansion-panel>
+        </div>
+        <div class="row">
+            <mat-expansion-panel hideToggle>
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        Offre 3#
+                    </mat-panel-title>
+                    <mat-panel-description>
+                        This is a summary of the content
+                    </mat-panel-description>
+                </mat-expansion-panel-header>
+                <p>This is the primary content of the panel.</p>
+                <mat-action-row>
+                    <button mat-button color="primary" (click)="accept()">Accept</button>
+                </mat-action-row>
+            </mat-expansion-panel>
+        </div>
+        <div class="row">
+            <mat-expansion-panel hideToggle>
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        Offre 4#
+                    </mat-panel-title>
+                    <mat-panel-description>
+                        This is a summary of the content
+                    </mat-panel-description>
+                </mat-expansion-panel-header>
+                <p>This is the primary content of the panel.</p>
+                <mat-action-row>
+                    <button mat-button color="primary" (click)="accept()">Accept</button>
+                </mat-action-row>
+            </mat-expansion-panel>
+        </div>
+    </div>
+</div>
+<footer>
+    <div style="height: 150px;"></div>
+</footer>
+<router-outlet></router-outlet>
